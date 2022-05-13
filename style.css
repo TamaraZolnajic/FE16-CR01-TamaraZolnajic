@@ -1,7 +1,7 @@
 body{
   margin:0;
   padding: 0;
-  background-image: url('../FE16-CR01-TamaraZolnajic/pics/keyboard.jpg')
+  background-image: url(pics/keyboard.jpg)
   ;
   background-position-y: 60% ;
   background-repeat: no-repeat;
