@@ -1,64 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeFactory</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="../FE16-CR01-TamaraZolnajic/pics/CFLOGO.png" alt="" height="60" width="200">
-            <input type="text" placeholder="Search">
-            <input type="button" value="LogIn">
-            <input type="button" value="SignUp">
+  <div class="Container">
+  <header>
+      <div id="navbar">
+        <nav class="Sticky">
+          <img src="../FE16-CR01-TamaraZolnajic/pics/CFLOGO.png" alt="" height="60" width="200" style="position: absolute; top: 10px; left: 10px;">
+          <input type="text" class="search" placeholder="Search" size="100">
+          <input type="button" value="SignUp" class="button1"> 
+          <input type="button" value="LogIn" class="button2"> <!--Added class for more styling options(i.e. hover)-->
         </nav>
-    </header>
-    <div class="first">
-        <img src="../FE16-CR01-TamaraZolnajic/pics/keyboard.jpg" alt="" width="100%">
-        <div>
-            <h1 id="h1first">CodeFactory FSWD</h1>
-            <p id="pfirst">This course is specially designed to introduce you to the WebDev world.</p>
-            <img src="../FE16-CR01-TamaraZolnajic/pics/devices.png" alt="" height="50" width="100">
-        </div>
-    </div><hr>
-        <h1 id="h1second">Course Technologies</h1>
-        <div class="row">
-            <div class="column">
-              <div class="card">
-                <h3>Front End</h3> <hr>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JS</p>
-                <p>Angular</p>
-                <input type="button" value="Click to see more">
-              </div>
-            </div>
-          
-            <div class="column">
-              <div class="card">
-                <h3>Back End</h3><hr>
-                <p>MySql</p>
-                <p>PHP</p>
-                <p>Symfony</p>
-                <input type="button" value="Click to see more">
-              </div>
-            </div>
-            
-            <div class="column">
-              <div class="card">
-                <h3>Projects</h3><hr>
-                <p>Front End Project</p>
-                <p>Full Stack Project</p>
-                <input type="button" value="Click to see more">
-             </div>
-            </div>
-    <footer>
-        <img src="../FE16-CR01-TamaraZolnajic/pics/CFLOGO.png" alt="" height="60" width="200">
-        <h3>Tamara Zolnajic - CodeFactory &copy;</h3>
-        <p><em>All rights reserved</em></p>
-    </footer>
+      </div>
+  </header>
+  <div>
+      <h1 id="h1first">CodeFactory FSWD</h1>
+      <p id="pfirst">This course is specially designed to introduce you to the WebDev world.</p>
+      <img id="imgfirst" src="../FE16-CR01-TamaraZolnajic/pics/devices.png" alt="" height="80" width="120">
+    </div>
+  </div>
+  <div class="wrap">
+    <h1 id="h1second">Course Technologies</h1>
+    <div class="card">
+      <h3>Front End</h3> <hr>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JS</p>
+        <p>Angular</p>
+        <input type="button" value="Click to see more">
+    </div>
+    <div class="card">
+      <h3>Back End</h3><hr>
+      <p>MySql</p>
+      <p>PHP</p>
+      <p>Symfony</p>
+      <input type="button" value="Click to see more">
+    </div>
+    <div class="card">
+      <h3>Projects</h3><hr>
+      <p>Front End Project</p>
+      <p>Full Stack Project</p>
+      <input type="button" value="Click to see more">
+    </div>
+  </div>
+<footer>
+    <img src="../FE16-CR01-TamaraZolnajic/pics/CFLOGO.png" alt="" height="60" width="200">
+    <h3>Tamara Zolnajic - CodeFactory &copy;</h3>
+    <p><em>All rights reserved</em></p>
+</footer>
 </body>
 </html>

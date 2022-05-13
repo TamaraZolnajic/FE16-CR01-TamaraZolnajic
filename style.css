@@ -1,48 +1,110 @@
-
-
-
-
-
-
-
-
-
-#h1second {
-    text-align: center;
+body{
+  margin:0;
+  padding: 0;
+  background-image: url('../FE16-CR01-TamaraZolnajic/pics/keyboard.jpg')
+  ;
+  background-position-y: 60% ;
+  background-repeat: no-repeat;
 }
-.second {
-    box-sizing: border-box;
-    text-align: center;
-    width: 100%;
-    position: absolute;
-  }
-  
-  .column {
-    text-align: inline-block;
-    position: relative;
-    float: left;
-    width: 30%;
-    padding: 0 10px;
-  }
-  .row {
-      margin: 0 -5px;
-    }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-  }
-
-
-
-  footer{
-      text-align: center;
-  }
-  
+.button1 {
+  position: absolute; 
+  top: 10px;
+  right: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color:#8C181B;
+  text-align: center;
+  border-radius: 15px;
+  height: 50px;
+  width: 100px;
+}
+/*Added hover option just for aesthetics*/
+.button1:hover{
+  background-color: #5f0d0f ;
+}
+.button2 {
+  position: absolute; 
+  top: 10px;
+  right: 160px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color:#8C181B;
+  text-align: center;
+  border-radius: 15px;
+  height: 50px;
+  width: 100px;
+}
+/*Added hover option just for aesthetics*/
+.button2:hover{
+  background-color: #5f0d0f ;
+}
+.search{
+  position: absolute;
+  top: 20px;
+  left: 16%;
+  right: 16%;
+  height: 30px;
+}
+/*not in div for better positioning (most simmilar to example pic.)*/
+#h1first{
+  position: absolute;
+  top: 28%;
+  left: 20%;
+  font-size: 46px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*not in div for better positioning (most simmilar to example pic.)*/
+#pfirst{
+  position: absolute;
+  top: 36%;
+  left: 20%;
+  font-size: 24px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/*not in div for better positioning (most simmilar to example pic.)*/
+#imgfirst{
+  position: absolute;
+  top: 41%;
+  left: 20%;
+}
+#h1second {
+  text-align: center;
+  text-shadow: 2px 3px 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  color: white;
+}
+.wrap{
+  background-color:#1A1818 ;
+  position: absolute;
+  top: 49%;
+  width: 100%;
+  height: 50%;
+}
+.card{
+  float: left;
+  text-align: center;
+  background-color: #245a8d;
+  width: 25%;
+  height: 30%;
+  padding: 16px;
+  border: #5f0d0f;
+  border-style: solid;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+footer{
+  background-color: black;
+  position: absolute;
+  bottom: -10%;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+ 
+}
