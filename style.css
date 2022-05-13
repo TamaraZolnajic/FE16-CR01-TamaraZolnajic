@@ -1,0 +1,48 @@
+
+
+
+
+
+
+
+
+
+#h1second {
+    text-align: center;
+}
+.second {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .column {
+    text-align: inline-block;
+    position: relative;
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+  }
+  .row {
+      margin: 0 -5px;
+    }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+
+
+  footer{
+      text-align: center;
+  }
+  
