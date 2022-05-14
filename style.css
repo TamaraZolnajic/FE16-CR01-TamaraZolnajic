@@ -1,3 +1,4 @@
+/*Most of the positioning is done in percentages, and viewp. only because I worked on 2 devices, and I wanted it to look the same on all resolutions.*/
 body{
   margin:0;
   padding: 0;
@@ -86,19 +87,30 @@ body{
   top: 49%;
   width: 100%;
   height: 50%;
+
 }
 .card{
+  margin: 20px;
   float: left;
+  display: inline-block;
   text-align: center;
   background-color: #245a8d;
-  width: 25%;
-  height: 30%;
+  width: 24%;
+  height: 200px;
   padding: 16px;
-  border: #5f0d0f;
-  border-style: solid;
+ border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
+.position{
+  margin-left: 13%;
+}
+.ctsm{
+  position: relative;
+  bottom: 22%;
+  margin-bottom: 10%;
+}
+
 footer{
   background-color: black;
   position: absolute;
