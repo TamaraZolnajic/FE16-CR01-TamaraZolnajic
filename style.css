@@ -17,9 +17,10 @@ body{
   border: none;
   background-color:#8C181B;
   text-align: center;
-  border-radius: 15px;
-  height: 50px;
-  width: 100px;
+  border-radius: 20%;
+  height: 6%;
+  width: 6%;
+  font-size: 100%;
 }
 /*Added hover option just for aesthetics*/
 .button1:hover{
@@ -34,9 +35,10 @@ body{
   border: none;
   background-color:#8C181B;
   text-align: center;
-  border-radius: 15px;
-  height: 50px;
-  width: 100px;
+  border-radius: 20%;
+  height: 6%;
+  width: 6%;
+  font-size: 100%;
 }
 /*Added hover option just for aesthetics*/
 .button2:hover{
@@ -45,25 +47,25 @@ body{
 .search{
   position: absolute;
   top: 20px;
-  left: 16%;
-  right: 16%;
-  height: 30px;
+  left: 17%;
+  right: 17%;
+  height: 4%;
 }
 /*not in div for better positioning (most simmilar to example pic.)*/
 #h1first{
   position: absolute;
-  top: 28%;
+  top: 27%;
   left: 20%;
-  font-size: 46px;
+  font-size: 300%;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 /*not in div for better positioning (most simmilar to example pic.)*/
 #pfirst{
   position: absolute;
-  top: 36%;
+  top: 35%;
   left: 20%;
-  font-size: 24px;
+  font-size: 150%;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -71,14 +73,14 @@ body{
 /*not in div for better positioning (most simmilar to example pic.)*/
 #imgfirst{
   position: absolute;
-  top: 41%;
+  top: 40%;
   left: 20%;
 }
 #h1second {
   text-align: center;
   text-shadow: 3px 4px 3px rgb(170, 160, 160);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 55px;
+  font-size: 350%;
   color: white;
 }
 .wrap{
@@ -87,7 +89,7 @@ body{
   top: 50%;
   bottom: 80%;
   width: 100%;
-  height: 70vh;
+  height: 80vh;
 }
 .card{
   margin: 20px;
@@ -95,9 +97,9 @@ body{
   text-align: center;
   background-color: #245a8d;
   width: 23%;
-  height: 230px;
+  height: 25%;
   padding: 16px;
-  border-radius: 10px;
+  border-radius: 5%;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
@@ -105,7 +107,7 @@ body{
   margin-left: 15%;
 }
 .container{
-  min-height: 150px;
+  min-height: 160px;
 }
 .ctsm{
   padding: 12px;
@@ -117,7 +119,7 @@ body{
 }
 #pcard{
   line-height: 4px;
-  font-size: 20px;
+  font-size: 130%;
 }
 
 footer{
@@ -125,7 +127,8 @@ footer{
   position: absolute;
   bottom: 5px;
   width: 100%;
-  height: 25%;
+  height: 20%;
+  margin: auto;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
